@@ -34,3 +34,6 @@ Requirements: near-real-time synced with the music on the air; user voting mecha
 - S3 for storage of pictures, frontend assets
 - Cloudfront for web deployment
 - Testflight for mobile
+
+# CI/CD
+- Github actions, upload to container/lambda
