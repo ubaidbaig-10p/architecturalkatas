@@ -11,7 +11,6 @@ Users: unsure; whatever the local "music" community is
 Requirements: near-real-time synced with the music on the air; user voting mechanism; mobile-device accessibility
 
 # Users
-
 - DJ
 - Users
 
@@ -19,4 +18,19 @@ Requirements: near-real-time synced with the music on the air; user voting mecha
 
 - Music tracks
 - Social Login
-- 
+
+# User Interfaces
+- Web
+- Mobile
+
+# Technology
+- Backend - C#/Java/Node anything that client wants or we have team capacity available
+- Database - start with relational database
+- Web - Single Page Application (SPA) with mobile responsiveness, ideally ReactJS
+- Mobile - React Native cross platform app because the scope doesn't look big and apart from Location no other native functionality mentioned
+
+# Infrastrucure
+- Containers / K8 / API Gateway + Labmda functions
+- S3 for storage of pictures, frontend assets
+- Cloudfront for web deployment
+- Testflight for mobile
