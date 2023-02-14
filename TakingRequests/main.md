@@ -37,3 +37,9 @@ Requirements: near-real-time synced with the music on the air; user voting mecha
 
 # CI/CD
 - Github actions, upload to container/lambda
+
+# Testing Strategy (Need team to validate and provide input)
+- Web Cypress browser based automation to test the application flows
+- API Automation using k6 to put load
+- Socket IO / realtime load testing?
+
