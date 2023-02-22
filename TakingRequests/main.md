@@ -43,3 +43,9 @@ Requirements: near-real-time synced with the music on the air; user voting mecha
 - API Automation using k6 to put load
 - Socket IO / realtime load testing?
 
+# Non functional requirements
+- High availability (during a disaster should be able to recover data from previous day) with minimal latency say < 300 ms
+- The system should be scalable and efficient expected user load 100 concurrent users
+
+
+
