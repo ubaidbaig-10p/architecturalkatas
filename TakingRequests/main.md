@@ -47,5 +47,8 @@ Requirements: near-real-time synced with the music on the air; user voting mecha
 - High availability (during a disaster should be able to recover data from previous day) with minimal latency say < 300 ms
 - The system should be scalable and efficient expected user load 100 concurrent users
 
+# Traffic
+This will be a read-heavy system, so let's assume a 100:1 read/write ratio with 100 million links generated per month.
+
 
 
