@@ -11,27 +11,28 @@ Users: (up to) millions of users per customer, (up to) thousands (or more) of cu
 
 
 # Users
-- Sellers
-- Buyers
+- Customers
+- Users of the customers
 
 # Integrations
-
+- Currency exchange
+- payment gateway
+- shipping and tracking
 
 # User Interfaces
 - Web
-- Mobile
+
+# Existing Solutions
+There are 2 open source solutions on top of them we can develop these solutions.
+
+- https://smartstore.com/en/tips-tricks-multistores-with-smartstore-one-installation-multiple-shops/
+- https://devdocs.magento.com/guides/v2.3/config-guide/multi-site/ms_websites.html
 
 # Technology
-- Backend - C#/Java/Node anything that client wants or we have team capacity available
-- Database - start with relational database
-- Web - Single Page Application (SPA) with mobile responsiveness, ideally ReactJS
-- Mobile - React Native cross platform app because the scope doesn't look big and apart from Location no other native functionality mentioned
+TBD
 
 # Infrastrucure
-- Containers / K8 / API Gateway + Labmda functions
-- S3 for storage of pictures, frontend assets
-- Cloudfront for web deployment
-- Testflight for mobile
+TBD
 
 # CI/CD
 - Github actions, upload to container/lambda
