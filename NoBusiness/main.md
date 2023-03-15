@@ -29,13 +29,16 @@ There are 2 open source solutions on top of them we can develop these solutions.
 - https://devdocs.magento.com/guides/v2.3/config-guide/multi-site/ms_websites.html
 
 # Technology
-TBD
+- Because of the vast community support, plugin and resource availability Magento is the right choice for this platform
+- This solution will require settin up a Store Controller module so that we can setup a new store when a new business sign up
 
 # Infrastrucure
-TBD
+- For a multi tenant approach we need to scale / manage the Store Controller separately
+- Through CICD we can setup and deploy a new store on the fly for a new store
+- Depending upon the nature / user load different stores can have different independent deployments
 
 # CI/CD
-- Github actions, upload to container/lambda
+- TBD
 
 # Testing Strategy (Need team to validate and provide input)
 - Web Cypress browser based automation to test the application flows
