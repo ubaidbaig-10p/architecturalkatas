@@ -53,8 +53,6 @@ There are 2 open source solutions on top of them we can develop these solutions.
 - High availability (during a disaster should be able to recover data from previous day) with minimal latency say < 300 ms
 - The system should be scalable and efficient expected user load 100 concurrent users
 
-# Traffic
-- 
 
 
 
