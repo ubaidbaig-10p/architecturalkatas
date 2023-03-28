@@ -42,6 +42,10 @@ There are 2 open source solutions on top of them we can develop these solutions.
 - For a multi-tenant CICD approach, we recommend using Jenkins with Multi Tenancy support https://www.cloudbees.com/blog/multi-tenancy-jenkins
 - Jenkins support multibranch pipelines so that specific branch can be deployed to a specific store when needed.
 - Store Controller can interact with Jenkins to deploy a build to a new instance in a multi-tenant environment. This can be done by using Jenkins REST APIs
+- Store Controller will initiate infrastructure deployment for new store using IaC techniques
+- Once new store is setup, latest release will be deployed through Jenkins on the new instance
+- Store Controller will keep track of new instances being deployed and their access mechanism
+- Store Controller will be deployed separately through separate jenkins because its development/testing team may be different actual store development team.
 
 
 # Testing Strategy (Need team to validate and provide input)
