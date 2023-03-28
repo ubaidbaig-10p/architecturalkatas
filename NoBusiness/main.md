@@ -36,9 +36,13 @@ There are 2 open source solutions on top of them we can develop these solutions.
 - For a multi tenant approach we need to scale / manage the Store Controller separately
 - Through CICD we can setup and deploy a new store on the fly for a new store
 - Depending upon the nature / user load different stores can have different independent deployments
+- To setup new instance we will be using Infrastructure as Code (IaC) so that new instances can be added on the fly
 
 # CI/CD
-- TBD
+- For a multi-tenant CICD approach, we recommend using Jenkins with Multi Tenancy support https://www.cloudbees.com/blog/multi-tenancy-jenkins
+- Jenkins support multibranch pipelines so that specific branch can be deployed to a specific store when needed.
+- Store Controller can interact with Jenkins to deploy a build to a new instance in a multi-tenant environment. This can be done by using Jenkins REST APIs
+
 
 # Testing Strategy (Need team to validate and provide input)
 - Web Cypress browser based automation to test the application flows
