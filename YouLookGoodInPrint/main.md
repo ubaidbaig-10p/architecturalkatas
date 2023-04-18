@@ -1,5 +1,5 @@
 # Link
-[http://www.architecturalkatas.com/kata.html?kata=TakingRequests.json](http://www.architecturalkatas.com/kata.html?kata=YouLookGoodInPrint.json)
+[http://www.architecturalkatas.com/kata.html?kata=YouLookGoodInPrint.json](http://www.architecturalkatas.com/kata.html?kata=YouLookGoodInPrint.json)
 
 # Description
 
